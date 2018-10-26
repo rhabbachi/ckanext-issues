@@ -195,7 +195,7 @@ dataset - package object
             class="issue-comment-avatar">
             {{ h.gravatar((c.userobj.email_hash), size=48) }}
           </a>
-          <form id="issue-comment-form" class="dataset-form" method="post"
+          <form id="issue-comment-form" class="dataset-form prevent-ds" method="post"
             data-module="basic-form"
             action="{{h.url_for('issues_comments', issue_number=issue.number, dataset_id=dataset.id)}}">
             <div class="control-group control-full">
