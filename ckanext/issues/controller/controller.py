@@ -234,11 +234,13 @@ class IssueController(BaseController):
         Display a page containing a list of all issues items for a dataset,
         sorted by category.
         """
-        self._before_dataset(dataset_id)
+        pkg_dict = self._before_dataset(dataset_id)
         try:
             extra_vars = issues_for_dataset(dataset_id, request.GET)
+            log.debug(extra_vars);
         except toolkit.ValidationError, e:
             _dataset_handle_error(dataset_id, e)
+        extra_vars['pkg_dict'] = pkg_dict
         return render("issues/dataset.html", extra_vars=extra_vars)
 
     def delete(self, dataset_id, issue_number):
