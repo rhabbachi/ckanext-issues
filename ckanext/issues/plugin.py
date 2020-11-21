@@ -6,6 +6,7 @@ log = getLogger(__name__)
 
 import ckan.plugins as p
 from ckan.plugins import implements, toolkit
+from ckanext.issues.cli import get_commands
 
 # Imports are done in methods to speed up paster.
 # Please don't move back up to here.
@@ -29,6 +30,8 @@ class IssuesPlugin(IssuesPluginBase):
     implements(p.IRoutes, inherit=True)
     implements(p.IActions)
     implements(p.IAuthFunctions)
+    implements(p.IClick)
+
 
     # IConfigurer
 
@@ -154,3 +157,8 @@ class IssuesPlugin(IssuesPluginBase):
             'issue_report_clear': auth.issue_report_clear,
             'issue_comment_search': auth.issue_comment_search,
         }
+
+    # IClick
+
+    def get_commands(self):
+        return get_commands()
