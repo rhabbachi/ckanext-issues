@@ -1,0 +1,630 @@
+# Translations template for ckanext-issues.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the ckanext-issues project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-issues 0.3\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-11-21 10:46+0000\n"
+"PO-Revision-Date: 2020-11-22 09:46+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+
+#: ckanext/issues/auth.py:20
+msgid "User {0} not authorized for action on issue {1}"
+msgstr "L'utilisateur {0} n'est pas autorisé à intervenir sur le problème {1}"
+
+#: ckanext/issues/auth.py:42
+msgid "User {0} not authorized for action"
+msgstr "L'utilisateur {0} n'est pas autorisé à intervenir"
+
+#: ckanext/issues/auth.py:91
+msgid "User {user} not authorized for action on issue {issue}"
+msgstr "L'utilisateur {user} n'est pas autorisé à intervenir sur le problème {issue}"
+
+#: ckanext/issues/controller/controller.py:48
+msgid "Issues have not been enabled for this dataset"
+msgstr "La gestion des problèmes n'est pas active sur ce jeu de données"
+
+#: ckanext/issues/controller/controller.py:51
+#: ckanext/issues/controller/controller.py:69
+msgid "Dataset not found"
+msgstr "Jeu de données non trouvé"
+
+#: ckanext/issues/controller/controller.py:54
+msgid "Unauthorized to view issues for this dataset"
+msgstr "Vous n'êtes pas autorisés à consulter les problèmes associés à ce jeu de données"
+
+#: ckanext/issues/controller/controller.py:66
+msgid "Issues have not been enabled for this organization"
+msgstr "La gestion des problèmes n'est pas activée pour cette organisation"
+
+#: ckanext/issues/controller/controller.py:72
+msgid "Unauthorized to view issues for this organization"
+msgstr "Vous n'êtes pas autorisés à consulter les problèmes liés à cette organisation"
+
+#: ckanext/issues/controller/controller.py:77
+msgid "Please login to add a new issue"
+msgstr "Authentifiez-vous pour ajouter un problème"
+
+#: ckanext/issues/controller/controller.py:86
+msgid "Not authorized to add a new issue"
+msgstr "Vous n'êtes pas autorisé à ajouter un problème"
+
+#: ckanext/issues/controller/controller.py:106
+msgid "title"
+msgstr "titre"
+
+#: ckanext/issues/controller/controller.py:106
+msgid "Please enter a title"
+msgstr "Entrer un titre"
+
+#: ckanext/issues/controller/controller.py:113
+msgid "Your issue has been registered, thank you for the feedback"
+msgstr "Votre problème a bien été enregistré, merci pour votre retour"
+
+#: ckanext/issues/controller/controller.py:131
+#: ckanext/issues/controller/controller.py:134
+msgid "Issue not found: {0}"
+msgstr "Problème non trouvé: {0}"
+
+#: ckanext/issues/controller/controller.py:178
+msgid "Invalid request"
+msgstr "Requête invalide"
+
+#: ckanext/issues/controller/controller.py:190
+msgid "Not authorized"
+msgstr "Non autorisé"
+
+#: ckanext/issues/controller/controller.py:199
+msgid "Comment cannot be empty"
+msgstr "Le commentaire ne peut pas être vide"
+
+#: ckanext/issues/controller/controller.py:218
+msgid "Issue closed"
+msgstr "Problème clôturé"
+
+#: ckanext/issues/controller/controller.py:220
+msgid "Issue re-opened"
+msgstr "Problème ré-ouvert"
+
+#: ckanext/issues/controller/controller.py:260
+msgid "Unauthorized to delete issue {0}"
+msgstr "Vous n'êtes pas autorisé à effacer le problème {0}"
+
+#: ckanext/issues/controller/controller.py:264
+msgid "Issue has been deleted."
+msgstr "Le problème a été effacé."
+
+#: ckanext/issues/controller/controller.py:281
+msgid "User {0} does not exist"
+msgstr "L'utilisateur {0} n'existe pas"
+
+#: ckanext/issues/controller/controller.py:301
+#, python-format
+msgid "Assigned to %s"
+msgstr "Assigné à %s"
+
+#: ckanext/issues/controller/controller.py:311
+msgid "Unauthorized to assign users to issue"
+msgstr "Vous n'êtes pas autorisés à assigner des utilisateurs aux problèmes"
+
+#: ckanext/issues/controller/controller.py:324
+msgid "You must be logged in to report issues"
+msgstr "Vous devez être authentifiés pour soumettre des problèmes"
+
+#: ckanext/issues/controller/controller.py:335
+#: ckanext/issues/controller/controller.py:372
+msgid "Report acknowledged."
+msgstr "Rapport reçu."
+
+#: ckanext/issues/controller/controller.py:338
+#: ckanext/issues/controller/controller.py:375
+msgid "Marked as abuse/spam."
+msgstr "Marqué comme abus/spam."
+
+#: ckanext/issues/controller/controller.py:339
+msgid "Issue is visible."
+msgstr "Le problème est visible."
+
+#: ckanext/issues/controller/controller.py:341
+msgid "Issue is invisible to normal users."
+msgstr "Le problème n'est pas visible les utilisateurs normaux."
+
+#: ckanext/issues/controller/controller.py:344
+msgid "Issue reported to an administrator"
+msgstr "Problème notifié à un administrateur"
+
+#: ckanext/issues/controller/controller.py:360
+msgid "You must be logged in to report comments"
+msgstr "Vous devez être authentifiés pour soumettre des commentaires"
+
+#: ckanext/issues/controller/controller.py:376
+msgid "Comment is visible."
+msgstr "Le commentaire est visible."
+
+#: ckanext/issues/controller/controller.py:378
+msgid "Comment is invisible to normal users."
+msgstr "Le commentaire n'est pas visible pour les utilisateurs normaux."
+
+#: ckanext/issues/controller/controller.py:381
+msgid "Comment has been reported to an administrator"
+msgstr "Le commentaire a été notifié à un administrateur"
+
+#: ckanext/issues/controller/controller.py:404
+msgid "Issue report cleared"
+msgstr "Rapport de problème résolu"
+
+#: ckanext/issues/controller/controller.py:409
+msgid "You must be logged in clear abuse reports"
+msgstr "Vous devez être authentifiés pour résoudre les rapports"
+
+#: ckanext/issues/controller/controller.py:425
+msgid "Spam/abuse report cleared"
+msgstr "Rapport de spam/abus résolu"
+
+#: ckanext/issues/controller/controller.py:430
+msgid "You must be logged in to clear abuse reports"
+msgstr "Vous devez être authentifiés pour résoudre les rapports"
+
+#: ckanext/issues/controller/controller.py:445
+#: ckanext/issues/controller/controller.py:485
+msgid "Validation error: {0}"
+msgstr "Erreur de validation: {0}"
+
+#: ckanext/issues/controller/moderation.py:17
+#: ckanext/issues/controller/moderation.py:76
+msgid "Organization not found"
+msgstr "Organisation non trouvée"
+
+#: ckanext/issues/controller/moderation.py:22
+msgid "You must be logged in to moderate issues"
+msgstr "Vous devez être authentifié pour gérer les problèmes"
+
+#: ckanext/issues/controller/moderation.py:29
+msgid "Issue permanently hidden"
+msgstr "Problème caché de façon permanente"
+
+#: ckanext/issues/controller/moderation.py:33
+msgid "All issue reports cleared"
+msgstr "Tous les rapports de problèmes sont résolus"
+
+#: ckanext/issues/controller/moderation.py:81
+msgid "You must be logged in to moderate comment"
+msgstr "Vous devez être authentifié pour gérer un commentaire"
+
+#: ckanext/issues/controller/moderation.py:88
+msgid "Comment permanently hidden"
+msgstr "Commentaire caché de façon permanente"
+
+#: ckanext/issues/controller/moderation.py:92
+msgid "All comment reports cleared"
+msgstr "Tous les rapports de commentaires sont résolus"
+
+#: ckanext/issues/controller/show.py:18
+msgid "No description provided"
+msgstr "Pas de description fournie"
+
+#: ckanext/issues/lib/helpers.py:202
+#, python-format
+msgid "[%s Issue] %s"
+msgstr "[Problème %s ] %s"
+
+#: ckanext/issues/logic/action/action.py:63
+msgid "Issue does not exist"
+msgstr "Le problème n'existe pas"
+
+#: ckanext/issues/logic/action/action.py:83
+msgid "Issue marked as spam/abuse"
+msgstr "Problème marqué comme spam/abus"
+
+#: ckanext/issues/logic/action/action.py:566
+msgid "Issue has already been reported by this user"
+msgstr "Le problème a déjà été rapporté par cet utilisateur"
+
+#: ckanext/issues/logic/validators/validators.py:13
+msgid "{0} is not a valid status"
+msgstr "{0} n'est pas un statut valide"
+
+#: ckanext/issues/logic/validators/validators.py:44
+#: ckanext/issues/logic/validators/validators.py:55
+msgid "Not found"
+msgstr "Non trouvé"
+
+#: ckanext/issues/logic/validators/validators.py:45
+msgid "Dataset"
+msgstr "Jeu de données"
+
+#: ckanext/issues/logic/validators/validators.py:56
+msgid "Organization"
+msgstr "Organisation"
+
+#: ckanext/issues/logic/validators/validators.py:65
+#: ckanext/issues/logic/validators/validators.py:78
+msgid "Issue not found"
+msgstr "Problème non trouvé"
+
+#: ckanext/issues/logic/validators/validators.py:87
+msgid "Issue Comment not found"
+msgstr "Commentaire non trouvé"
+
+#: ckanext/issues/public/scripts/autocomplete-action-api.js:31
+msgid "No matches found"
+msgstr "Pas de correspondances trouvées"
+
+#: ckanext/issues/public/scripts/autocomplete-action-api.js:32
+msgid "Start typing…"
+msgstr "Commencez à taper…"
+
+#: ckanext/issues/public/scripts/autocomplete-action-api.js:34
+msgid "Input is too short, must be at least one character"
+msgstr "L'entrée est trop courte, elle doit contenir au moins un caractère"
+
+#: ckanext/issues/templates/issues/add.html:3
+#: ckanext/issues/templates/issues/add.html:5
+#: ckanext/issues/templates/issues/dataset.html:22
+msgid "New Issue"
+msgstr "Nouveau Problème"
+
+#: ckanext/issues/templates/issues/add.html:16
+#: ckanext/issues/templates/issues/edit.html:14
+msgid "The form contains invalid entries:"
+msgstr "Le formulaire contient des entrées invalides:"
+
+#: ckanext/issues/templates/issues/add.html:27
+#: ckanext/issues/templates/issues/edit.html:25
+msgid "Title"
+msgstr "Titre"
+
+#: ckanext/issues/templates/issues/add.html:28
+#: ckanext/issues/templates/issues/edit.html:26
+msgid "Description"
+msgstr "Description"
+
+#: ckanext/issues/templates/issues/add.html:28
+#: ckanext/issues/templates/issues/edit.html:26
+msgid "Add a comment"
+msgstr "Ajouter un commentaire"
+
+#: ckanext/issues/templates/issues/add.html:33
+#: ckanext/issues/templates/issues/confirm_delete.html:14
+#: ckanext/issues/templates/issues/edit.html:34
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ckanext/issues/templates/issues/add.html:35
+msgid "Create"
+msgstr "Créer"
+
+#: ckanext/issues/templates/issues/all_issues.html:5
+#: ckanext/issues/templates/issues/all_issues.html:12
+msgid "All Issues"
+msgstr "Tous les problèmes"
+
+#: ckanext/issues/templates/issues/all_issues.html:24
+msgid "There are currently no issues"
+msgstr "Il n'y a aucun problème actuellement"
+
+#: ckanext/issues/templates/issues/base.html:9
+msgid "Datasets"
+msgstr "Jeux de données"
+
+#: ckanext/issues/templates/issues/base.html:11
+#: ckanext/issues/templates/issues/dataset.html:14
+#: ckanext/issues/templates/issues/dataset.html:20
+#: ckanext/issues/templates/issues/organization_issues.html:8
+#: ckanext/issues/templates/issues/organization_issues.html:22
+#: ckanext/issues/templates/issues/show.html:13
+#: ckanext/issues/templates/package/read_base.html:7
+msgid "Issues"
+msgstr "Problèmes"
+
+#: ckanext/issues/templates/issues/base_form_page.html:14
+msgid "What are issues?"
+msgstr "Quels sont les problèmes?"
+
+#: ckanext/issues/templates/issues/base_form_page.html:16
+msgid "Issues are the system for getting feedback about datasets."
+msgstr "Les problèmes sont le mécanisme pour soumettre un retour sur les jeux de données."
+
+#: ckanext/issues/templates/issues/comment_moderation.html:8
+#: ckanext/issues/templates/issues/moderation.html:8
+msgid "Reported issues"
+msgstr "Problèmes rapportés"
+
+#: ckanext/issues/templates/issues/comment_moderation.html:28
+#: ckanext/issues/templates/issues/moderation.html:28
+#: ckanext/issues/templates/issues/organization_issues.html:11
+msgid "Organizations"
+msgstr "Organisations"
+
+#: ckanext/issues/templates/issues/comment_moderation.html:68
+#: ckanext/issues/templates/issues/moderation.html:69
+msgid "Not abuse"
+msgstr "Pas un abus"
+
+#: ckanext/issues/templates/issues/common.html:12
+msgid "Opened by"
+msgstr ""
+
+#: ckanext/issues/templates/issues/common.html:14
+msgid "updated"
+msgstr "mis à jour"
+
+#: ckanext/issues/templates/issues/common.html:18
+#: ckanext/issues/templates/issues/organization_issues.html:76
+#, python-format
+msgid "%s comments"
+msgstr "%s commentaires"
+
+#: ckanext/issues/templates/issues/common.html:25
+msgid "Spam/Abuse - hidden from normal users"
+msgstr "Spam/Abus - caché pour les utilisateurs normaux"
+
+#: ckanext/issues/templates/issues/common.html:29
+msgid "Reported by you to admins"
+msgstr "Rapporté par vous aux administrateurs"
+
+#: ckanext/issues/templates/issues/common.html:38
+msgid "Status"
+msgstr "Statut"
+
+#: ckanext/issues/templates/issues/common.html:52
+msgid "Visibility"
+msgstr "Visibilité"
+
+#: ckanext/issues/templates/issues/confirm_delete.html:3
+#: ckanext/issues/templates/issues/confirm_delete.html:15
+msgid "Confirm Delete"
+msgstr "Confirmation d'effacement"
+
+#: ckanext/issues/templates/issues/confirm_delete.html:11
+msgid "Are you sure you want to delete issue - {0}?"
+msgstr "Etes-vous sur de vouloir effacer le problème - {0}?"
+
+#: ckanext/issues/templates/issues/dataset.html:26
+#: ckanext/issues/templates/issues/organization_issues.html:27
+msgid "Search issues..."
+msgstr "Recherche de problèmes…"
+
+#: ckanext/issues/templates/issues/dataset.html:35
+msgid "No issues"
+msgstr "Pas de problèmes"
+
+#: ckanext/issues/templates/issues/edit.html:3
+#: ckanext/issues/templates/issues/edit.html:5
+msgid "Edit Issue"
+msgstr "Editer le problème"
+
+#: ckanext/issues/templates/issues/edit.html:36
+msgid "Update"
+msgstr "Mise à jour"
+
+#: ckanext/issues/templates/issues/organization_issues.html:29
+#: ckanext/issues/templates/snippets/search_result_text.html:5
+msgid "{number} issue found"
+msgid_plural "{number} issues found"
+msgstr[0] "{number} problème trouvé"
+msgstr[1] "{number} problèmes trouvés"
+
+#: ckanext/issues/templates/issues/show.html:76
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: ckanext/issues/templates/issues/show.html:81
+msgid "commented"
+msgstr "commenté"
+
+#: ckanext/issues/templates/issues/show.html:100
+msgid "Report abuse"
+msgstr "Rapporter un abus"
+
+#: ckanext/issues/templates/issues/show.html:111
+msgid "You have reported this as abuse, cancel the report"
+msgstr "Vous have rapporté ceci comme un abus, annuler le rapport"
+
+#: ckanext/issues/templates/issues/show.html:112
+#: ckanext/issues/templates/issues/show.html:128
+msgid "Flag"
+msgstr "Marque"
+
+#: ckanext/issues/templates/issues/show.html:127
+msgid "Mark as spam/abuse"
+msgstr "Marqué comme spam/abus"
+
+#: ckanext/issues/templates/issues/show.html:140
+msgid "Mark as NOT spam/abuse"
+msgstr "Marqué comme NON spam/abus"
+
+#: ckanext/issues/templates/issues/show.html:141
+msgid "Not spam/abuse"
+msgstr "Non spam/abus"
+
+#: ckanext/issues/templates/issues/show.html:149
+msgid "user reports this is spam/abuse"
+msgstr "l'utilisateur rapporte qu'il s'agit d'un spam/abus"
+
+#: ckanext/issues/templates/issues/show.html:154
+msgid "Hidden from normal users"
+msgstr "Caché pour les utilisateurs normaux"
+
+#: ckanext/issues/templates/issues/show.html:159
+msgid "Moderated"
+msgstr "Géré"
+
+#: ckanext/issues/templates/issues/show.html:178
+msgid "opened this issue"
+msgstr "a ouvert ce problème"
+
+#: ckanext/issues/templates/issues/show.html:179
+msgid "{number} comment"
+msgid_plural "{number} comments"
+msgstr[0] "{number} commentaire"
+msgstr[1] "{number} commentaires"
+
+#: ckanext/issues/templates/issues/show.html:204
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: ckanext/issues/templates/issues/show.html:207
+msgid "You can use Markdown formatting here"
+msgstr "Vous pouvez utiliser le format Markdown ici"
+
+#: ckanext/issues/templates/issues/show.html:213
+msgid "Are you sure you want to delete this issue?"
+msgstr "Etes-vous sur que vous voulez effacer ce problème?"
+
+#: ckanext/issues/templates/issues/show.html:214
+msgid "Please Confirm Action"
+msgstr "Confirmer l'action"
+
+#: ckanext/issues/templates/issues/show.html:214
+msgid "Delete"
+msgstr "Effacer"
+
+#: ckanext/issues/templates/issues/show.html:220
+msgid "Close"
+msgstr "Fermer"
+
+#: ckanext/issues/templates/issues/show.html:224
+msgid "Re-open"
+msgstr "Ré-ouvrir"
+
+#: ckanext/issues/templates/issues/show.html:230
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ckanext/issues/templates/issues/show.html:237
+msgid "Login to comment"
+msgstr "Authentifiez-vous pour commenter"
+
+#: ckanext/issues/templates/issues/show.html:249
+msgid "All issues of dataset"
+msgstr "Tous les problèmes du jeu de données"
+
+#: ckanext/issues/templates/issues/show.html:249
+msgid "All issues of this dataset"
+msgstr "Tous les problèmes de ce jeu de données"
+
+#: ckanext/issues/templates/issues/show.html:258
+msgid "Assignee"
+msgstr "Personne affectée"
+
+#: ckanext/issues/templates/issues/show.html:265
+msgid "This issue has been assigned to an administrator for the publisher"
+msgstr "Ce problème a été affecté à un administrateur de l'éditeur"
+
+#: ckanext/issues/templates/issues/show.html:267
+msgid "No one"
+msgstr "Personne"
+
+#: ckanext/issues/templates/issues/show.html:273
+msgid "Change Assignee"
+msgstr "Changer l'affectation"
+
+#: ckanext/issues/templates/issues/show.html:278
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ckanext/issues/templates/issues/show.html:283
+msgid "Assign"
+msgstr "Affecter"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:2
+msgid "A user"
+msgstr "Un utilisateur"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:2
+msgid "has added a comment to one of your issues on"
+msgstr "a ajouté un commentaire à un de vos problèmes concernant"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:4
+msgid "The dataset is"
+msgstr "Le jeu de données est"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:5
+msgid "The issue is"
+msgstr "Le problème est"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:6
+msgid "The comment is"
+msgstr "Le commentaire est"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:9
+msgid "In order to respond to the comment, please see the issue at"
+msgstr "Pour pouvoir répondre au commentaire, consulter le problème à"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:10
+#: ckanext/issues/templates/issues/email/new_issue.html:11
+msgid "Once the issue has been resolved, click 'Close issue'."
+msgstr "Une fois que le problème est résolu, clicker sur 'Clôturer le problème'."
+
+#: ckanext/issues/templates/issues/email/new_comment.html:12
+msgid "Thank you"
+msgstr "Merci"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:14
+#: ckanext/issues/templates/issues/email/new_issue.html:15
+msgid "The"
+msgstr "Le"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:14
+#: ckanext/issues/templates/issues/email/new_issue.html:15
+msgid "team"
+msgstr "équipe"
+
+#: ckanext/issues/templates/issues/email/new_comment.html:17
+#: ckanext/issues/templates/issues/email/new_issue.html:19
+msgid "Message sent by"
+msgstr "Message envoyé par"
+
+#: ckanext/issues/templates/issues/email/new_issue.html:2
+msgid "On open data portal"
+msgstr "Sur le portail de données ouvertes"
+
+#: ckanext/issues/templates/issues/email/new_issue.html:2
+msgid "a user has raised an issue with one of the datasets from organization"
+msgstr "un utilisateur a soulevé un problème sur un des jeux de données de l'organisation"
+
+#: ckanext/issues/templates/issues/email/new_issue.html:2
+msgid "for which you are an"
+msgstr "pour laquelle vous êtes un"
+
+#: ckanext/issues/templates/issues/email/new_issue.html:4
+msgid "The dataset is:"
+msgstr "Le jeu de données est:"
+
+#: ckanext/issues/templates/issues/email/new_issue.html:6
+msgid "The issue is:"
+msgstr "Le problème est:"
+
+#: ckanext/issues/templates/issues/email/new_issue.html:11
+msgid "Please correct the problem or add an initial comment about the issue at:"
+msgstr "Corriger le problème ou ajouter un commentaire sur ce problème à:"
+
+#: ckanext/issues/templates/issues/email/new_issue.html:13
+msgid "Thank you,"
+msgstr "Merci,"
+
+#: ckanext/issues/templates/snippets/search_result_text.html:3
+msgid "{number} issue found for \"{query}\""
+msgid_plural "{number} issues found for \"{query}\""
+msgstr[0] "{number} problème trouvé concernant \"{query}\""
+msgstr[1] "{number} problèmes trouvés concernant \"{query}\""
+
+#: ckanext/issues/templates/snippets/search_result_text.html:4
+msgid "No issues found for \"{query}\""
+msgstr "Pas problèmes trouvés concernant \"{query}\""
+
+#: ckanext/issues/templates/snippets/search_result_text.html:6
+msgid "No issues found"
+msgstr "Pas de problèmes trouvés"
